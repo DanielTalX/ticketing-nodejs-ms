@@ -9,3 +9,8 @@ ep105-110 - App Overview
 - service type
 - events and architecture design
 
+ep111-116 - Project Setup
+-------------------------
+- auth service setup
+- infra - k8s and skaffold setup
+

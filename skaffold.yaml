@@ -1,0 +1,23 @@
+apiVersion: skaffold/v4beta3
+kind: Config
+manifests:
+  rawYaml:
+    - ./infra/k8s/*
+build:
+  local:
+    push: false
+  artifacts:
+    - image: mydockerid/auth
+      context: auth
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
+
+# skaffold dev
+# https://stackoverflow.com/questions/74170319/skaffold-cannot-connect-to-the-docker-daemon-on-docker-desktop-for-macos
+# DOCKER_HOST="unix:///Users/<you>/.docker/run/docker.sock" skaffold dev
+# docker context ls
+
