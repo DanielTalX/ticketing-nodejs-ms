@@ -1,0 +1,11 @@
+npm config set registry https://registry.npmjs.org/
+
+sec05 - Architecture of Multi-Service Apps
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ep105-110 - App Overview
+------------------------
+- resource type
+- service type
+- events and architecture design
+
