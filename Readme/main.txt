@@ -14,3 +14,11 @@ ep111-116 - Project Setup
 - auth service setup
 - infra - k8s and skaffold setup
 
+
+sec06 - Cloud Env for development
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- ep108-129 
+- remote dev with skaffold
+- kubectl contexts
+- Google Colud (GC)
+
