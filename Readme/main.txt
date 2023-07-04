@@ -22,3 +22,10 @@ sec06 - Cloud Env for development
 - kubectl contexts
 - Google Colud (GC)
 
+
+sec07 - Response Normaliztion Strategies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- ep130-150
+- auth service routes
+- Error Handling Solution
+
