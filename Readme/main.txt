@@ -17,7 +17,7 @@ ep111-116 - Project Setup
 
 sec06 - Cloud Env for development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- ep108-129 
+- ep117-129 
 - remote dev with skaffold
 - kubectl contexts
 - Google Colud (GC)
@@ -28,4 +28,15 @@ sec07 - Response Normaliztion Strategies
 - ep130-150
 - auth service routes
 - Error Handling Solution
+
+
+sec08 - DB Management and Modeling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- ep151-168
+- auth service
+- creating (Mongo) DB in kubernetes
+- signup flow
+- TypeScript & Mongoose Cooperation
+- Mongoose pre-save hooks
+- Model, Document, Atters, Sechema
 
