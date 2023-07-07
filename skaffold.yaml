@@ -15,6 +15,14 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: mydockerid/ticketing-client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: .
 
 # skaffold dev
 # https://stackoverflow.com/questions/74170319/skaffold-cannot-connect-to-the-docker-daemon-on-docker-desktop-for-macos

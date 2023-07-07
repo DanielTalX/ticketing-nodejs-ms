@@ -61,4 +61,15 @@ sec10 - Testing Isolated Microservices
 - Testing Goals and Architecture
 - test dependencies - jest, supertest, MongoMemoryServer
 
+
+sec11 - Integrating a Server-Side-Rendered React App
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Client - Next.js - React App
+
+ep213-221 - client part1 setup
+------------------------
+- Server Side Rendering
+- building a Next Image
+- running Next in k8s
+
  
