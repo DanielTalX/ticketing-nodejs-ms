@@ -40,3 +40,16 @@ sec08 - DB Management and Modeling
 - Mongoose pre-save hooks
 - Model, Document, Atters, Sechema
 
+
+sec09 - Authentication Strategies and Options
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- ep167-192
+- auth service
+- Authentication Strategies
+- Cookikes, JWT, Encription and Session
+- Securely Storing Secrets (Env Variables) with K8S (pod)
+- formating JSON properties
+- Middlewares 
+- Signin, SignOut, currentUser
+- Augmenting Type Definations
+- signup flow

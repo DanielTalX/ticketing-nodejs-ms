@@ -1,0 +1,8 @@
+- decode the cookie using:
+https://www.base64decode.org/
+
+- payload by:
+https://jwt.io/
+
+- Securely Storing Secrets (Env Variables) with K8S (pod)
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=MY_JWT_KEY

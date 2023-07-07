@@ -20,4 +20,3 @@ build:
 # https://stackoverflow.com/questions/74170319/skaffold-cannot-connect-to-the-docker-daemon-on-docker-desktop-for-macos
 # DOCKER_HOST="unix:///Users/<you>/.docker/run/docker.sock" skaffold dev
 # docker context ls
-
