@@ -53,3 +53,12 @@ sec09 - Authentication Strategies and Options
 - Signin, SignOut, currentUser
 - Augmenting Type Definations
 - signup flow
+
+
+sec10 - Testing Isolated Microservices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- ep193-212
+- Testing Goals and Architecture
+- test dependencies - jest, supertest, MongoMemoryServer
+
+ 
