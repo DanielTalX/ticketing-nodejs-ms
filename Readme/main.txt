@@ -67,9 +67,15 @@ sec11 - Integrating a Server-Side-Rendered React App
 Client - Next.js - React App
 
 ep213-221 - client part1 setup
-------------------------
-- Server Side Rendering
+------------------------------
+- Server Side Rendering (SSR)
 - building a Next Image
 - running Next in k8s
 
- 
+ep222-228 - client part2 signup
+-------------------------------
+-- ep222-225 - client part2a signup
+    - adding signup form
+    - Handling email and password inputs
+    - Handling resluts (success or fail)
+
