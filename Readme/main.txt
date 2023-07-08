@@ -78,4 +78,7 @@ ep222-228 - client part2 signup
     - adding signup form
     - Handling email and password inputs
     - Handling resluts (success or fail)
+-- ep226-228 - client part2b signup
+    - useRequest hook
+    - an onSuccess Callback
 
