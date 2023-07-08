@@ -1,0 +1,13 @@
+ep234
+- get all namesapce
+kubectl get namesapce
+- get services of the default namesapce
+kubectl get services
+- get services of a specific namesapce
+kubectl get services -n ingress-nginx
+
+client and auth are in default namesapce
+ingress-nginx is in ingress-nginx namesapce
+on SSR in order to perform a (not direct http://auth-srv/api.. client -> auth)
+http call from client to auth, we need to "get out" from the client
+and go to ingress-nginx, client -> ingress -> auth

@@ -82,3 +82,13 @@ ep222-228 - client part2 signup
     - useRequest hook
     - an onSuccess Callback
 
+ep229-240 - client part3 SSR
+-------------------------------
+- fetching data during SSR
+- cross namespace service communication
+    - kubectl get namespace
+    - kubectl get services -n ingress-nginx => ingress-nginx-controller
+    - http://ingress-nginx.ingress-nginx-controller.svc.cluster.local 
+        => addional option is to use (and create) external name service http://ingress-nginx-srv
+- a reusable api client with correct host and cookies
+
