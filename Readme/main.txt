@@ -92,3 +92,9 @@ ep229-240 - client part3 SSR
         => addional option is to use (and create) external name service http://ingress-nginx-srv
 - a reusable api client with correct host and cookies
 
+ep241-252 - client part4 header
+-------------------------------
+- Handling Multiple GetInitialProps
+- Header
+- SignOut page
+
