@@ -1,0 +1,22 @@
+{
+  "name": "@danieltalx/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "rm -rf build && tsc",
+    "clean": "rm -rf node_modeules && npm run build",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish",
+    "pack": "npm run build && cd dist && npm pack ../ && cd ../"
+  },
+  "keywords": [],
+  "author": "danieltalx",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

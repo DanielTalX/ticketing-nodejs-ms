@@ -98,3 +98,8 @@ ep241-252 - client part4 header
 - Header
 - SignOut page
 
+
+sec12 - Code Sharing and Reuse Between Services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep253-259 - common package setup
+
