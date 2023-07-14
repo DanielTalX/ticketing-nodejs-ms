@@ -114,3 +114,8 @@ ep264-268 - tickets service setup
 ---------------------------------
 - set mongo connection uri in depl.yaml as env variable
 
+ep269-276 - tickets service test-first approach
+-----------------------------------------------
+- test-first approach
+- faking auth during tests
+
