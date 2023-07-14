@@ -106,3 +106,11 @@ sec12 - Code Sharing and Reuse Between Services
     - export errors and middlewares
     - adding commands to handle changes in common package
 
+
+sec13 - Create-Read-Update-Destory Server setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ep264-268 - tickets service setup
+---------------------------------
+- set mongo connection uri in depl.yaml as env variable
+
