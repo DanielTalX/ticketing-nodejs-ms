@@ -102,4 +102,7 @@ ep241-252 - client part4 header
 sec12 - Code Sharing and Reuse Between Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- ep253-259 - common package setup
+-- ep260-263  - common package update
+    - export errors and middlewares
+    - adding commands to handle changes in common package
 

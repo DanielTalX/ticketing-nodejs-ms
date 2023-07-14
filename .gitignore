@@ -22,9 +22,11 @@ yarn-error.log*
 
 node_modules
 /dist
+/dist-versions/
 /build
 /infra/output
 /infra/scripts/config-dev.file
+local-packages
 
 /zResoures
 /zReadme

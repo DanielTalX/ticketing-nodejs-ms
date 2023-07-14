@@ -1,6 +1,6 @@
 {
   "name": "@danieltalx/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,14 +9,26 @@
   ],
   "scripts": {
     "build": "rm -rf build && tsc",
-    "clean": "rm -rf node_modeules && npm run build",
+    "clean": "rm -rf node_modeules && npm i && npm run build",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish",
-    "pack": "npm run build && cd dist && npm pack ../ && cd ../"
+    "dist2versions": "mv dist/* dist-versions",
+    "pack": "npm run build && cd dist && npm pack ../ && cd ../",
+    "share2auth": "rm -f ../auth/local-packages/danieltalx-common*.tgz && cp -r dist/* ../auth/local-packages/",
+    "create-file-version": "my-package-${package.version}.txt"
   },
   "keywords": [],
   "author": "danieltalx",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2"
+  },
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0"
   }
 }
