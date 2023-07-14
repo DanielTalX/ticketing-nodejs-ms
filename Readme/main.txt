@@ -119,3 +119,9 @@ ep269-276 - tickets service test-first approach
 - test-first approach
 - faking auth during tests
 
+ep277-290 - tickets service crud
+-----------------------------------------------
+- Ticket Model
+- update common package for better error logs
+- crud routes + testing routes
+
