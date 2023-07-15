@@ -1,0 +1,9 @@
+* Port-Forwarding with kubectl (local port to pod port)
+    - kubectl get pods
+    - kubectl port-forward nats-depl-name 4222:4222
+    - kubectl port-forward nats-depl-name 8222:8222
+
+* client health checks
+    - localhost:8222/streaming
+    - localhost:8222/streaming/chanelsz?subs=1
+

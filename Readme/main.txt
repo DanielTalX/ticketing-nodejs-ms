@@ -125,3 +125,17 @@ ep277-290 - tickets service crud
 - update common package for better error logs
 - crud routes + testing routes
 
+
+sec14 - Nats Streaming Server - An Event Bus Implementation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ep291-306 - nats-test part1 setup
+---------------------------------
+- nats-streaming Overview
+- nats-test server and depl setup
+- port-forwarding wiht kubectl
+- publisher & listener
+- accessing event data, clienId generation
+- queue groups, manual ack mode, graceful client shutdown
+- monitoring, client health checks
+
