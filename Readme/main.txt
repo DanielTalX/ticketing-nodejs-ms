@@ -139,3 +139,10 @@ ep291-306 - nats-test part1 setup
 - queue groups, manual ack mode, graceful client shutdown
 - monitoring, client health checks
 
+ep307-314 - nats-test part2 concurrency
+---------------------------------------
+- core concurrency issuess and questions
+- solving concurrency issuess
+- event redelivery
+- durable subscriptions
+
