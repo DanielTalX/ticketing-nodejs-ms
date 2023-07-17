@@ -48,3 +48,7 @@ spec:
       protocol: TCP
       port: 8222
       targetPort: 8222
+
+# kubectl get pods
+# kubectl port-forward nats-depl-name 4222:4222
+# kubectl port-forward nats-depl-name 8222:8222

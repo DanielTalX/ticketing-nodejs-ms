@@ -146,3 +146,11 @@ ep307-314 - nats-test part2 concurrency
 - event redelivery
 - durable subscriptions
 
+sec15 - Connecting to NATS in a NodeJS world
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep315-ep328 - reusable NATS part1
+    - reusable NATS Listeners
+    - reusable NATS Publisher
+    - custom Event Interface
+    - awaiting event publication
+
