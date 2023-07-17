@@ -153,4 +153,6 @@ sec15 - Connecting to NATS in a NodeJS world
     - reusable NATS Publisher
     - custom Event Interface
     - awaiting event publication
+-- ep329-ep332 - reusable NATS part2
+    - updating common module  
 
