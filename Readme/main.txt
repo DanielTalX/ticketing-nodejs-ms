@@ -156,3 +156,16 @@ sec15 - Connecting to NATS in a NodeJS world
 -- ep329-ep332 - reusable NATS part2
     - updating common module  
 
+sec16 - Managing a NATS Client
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep333-343 - Managing a NATS Client 1
+    - Nats client singelton / Nats warper
+    - accessing the Nats client
+    - graceful shutdown
+    - Handling Publish Failures
+        - only theoretical - using transaction database - no implementation!!!
+    - publishing ticket create / update
+    - Nats Env Variables
+
+
+
