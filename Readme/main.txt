@@ -167,5 +167,8 @@ sec16 - Managing a NATS Client
     - publishing ticket create / update
     - Nats Env Variables
 
-
+-- ep344-350 - Managing a NATS Client 2
+    - fixing unit tests - for nats cooperation
+    - redirect imports
+    - Test-Suite wide mocks & ensuring mock invocations
 
