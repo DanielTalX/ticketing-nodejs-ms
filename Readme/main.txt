@@ -172,3 +172,8 @@ sec16 - Managing a NATS Client
     - redirect imports
     - Test-Suite wide mocks & ensuring mock invocations
 
+sec17 - Cross-Service Data Replication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--ep351-354 - orders service setup
+    - scaffolding & ingress routing rules
+
