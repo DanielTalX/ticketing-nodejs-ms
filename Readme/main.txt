@@ -176,4 +176,5 @@ sec17 - Cross-Service Data Replication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --ep351-354 - orders service setup
     - scaffolding & ingress routing rules
+    - add routes
 
