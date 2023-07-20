@@ -176,5 +176,12 @@ sec17 - Cross-Service Data Replication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --ep351-354 - orders service setup
     - scaffolding & ingress routing rules
-    - add routes
+    - setup routes
+--ep355-377
+    - Order & Ticket model
+    - OrderStatus enum (common module)
+    - Mongoose Refs
+    - document methods
+    - crud routes
+    - crud tests  
 

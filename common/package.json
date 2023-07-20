@@ -1,6 +1,6 @@
 {
   "name": "@danieltalx/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -15,7 +15,8 @@
     "pack": "npm version patch && npm run build && rm -f dist/* && cd dist && npm pack ../ && cd ../",
     "share2auth": "rm -f ../auth/local-packages/danieltalx-common*.tgz && cp -r dist/* ../auth/local-packages/ && cd ../auth && npm run local-packages",
     "share2tickets": "rm -f ../tickets/local-packages/danieltalx-common*.tgz && cp -r dist/* ../tickets/local-packages/ && cd ../tickets && npm run local-packages",
-    "share2all": "npm run share2auth && npm run share2tickets",
+    "share2orders": "rm -f ../orders/local-packages/danieltalx-common*.tgz && cp -r dist/* ../orders/local-packages/ && cd ../orders && npm run local-packages",
+    "share2all": "npm run share2auth && npm run share2tickets && npm run share2orders",
     "create-file-version": "my-package-${package.version}.txt"
   },
   "keywords": [],
