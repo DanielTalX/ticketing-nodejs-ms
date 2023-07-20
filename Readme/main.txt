@@ -190,4 +190,5 @@ sec18 - Understanding Event Flow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ep377-383 - order service events
 -- cretaing the events in common module
-
+-- implements the publishers (create & cancel)
+    - testing event publishing
