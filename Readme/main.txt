@@ -185,3 +185,9 @@ sec17 - Cross-Service Data Replication
     - crud routes
     - crud tests  
 
+
+sec18 - Understanding Event Flow
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ep377-383 - order service events
+-- cretaing the events in common module
+
