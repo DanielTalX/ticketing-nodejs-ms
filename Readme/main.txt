@@ -192,3 +192,11 @@ ep377-383 - order service events
 -- cretaing the events in common module
 -- implements the publishers (create & cancel)
     - testing event publishing
+
+
+sec19 - Listening for Events and Handling Concurrency Issuess
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep384-393 - Listening for Events part1
+    - Orders Service
+    - Ticket Created & Ticket Updated Listeners
+ 
