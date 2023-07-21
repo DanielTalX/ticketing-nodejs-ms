@@ -202,8 +202,13 @@ sec19 - Listening for Events and Handling Concurrency Issuess
 
 -- ep394-401 - optimistic concurrency control (2)
     - Tickets Service
-    - understand concurrency issuess
+    - understand concurrency issuess (run test-occ.js script from readme 19dir)
     - optimistic concurrency control (OCC)
     - mongoose update-if-current
     - testing OCC
- 
+
+-- ep402-408 - optimistic concurrency control (3)
+    - Including version in Events (common)
+    - updating tickets & orders services to handle concurrency issuess
+    - (run test-occ.js script from readme 19dir)
+
