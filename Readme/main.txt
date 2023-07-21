@@ -211,4 +211,5 @@ sec19 - Listening for Events and Handling Concurrency Issuess
     - Including version in Events (common)
     - updating tickets & orders services to handle concurrency issuess
     - (run test-occ.js script from readme 19dir)
+    - absracted query method (findByEvent)
 
