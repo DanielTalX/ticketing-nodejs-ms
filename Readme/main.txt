@@ -196,7 +196,14 @@ ep377-383 - order service events
 
 sec19 - Listening for Events and Handling Concurrency Issuess
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ep384-393 - Listening for Events part1
+-- ep384-393 - Listening for Events (1)
     - Orders Service
     - Ticket Created & Ticket Updated Listeners
+
+-- ep394-401 - optimistic concurrency control (2)
+    - Tickets Service
+    - understand concurrency issuess
+    - optimistic concurrency control (OCC)
+    - mongoose update-if-current
+    - testing OCC
  
