@@ -207,10 +207,10 @@ sec19 - Listening for Events and Handling Concurrency Issuess
     - mongoose update-if-current
     - testing OCC
 
--- ep402-409 - optimistic concurrency control (3)
+-- ep402-413 - optimistic concurrency control (3)
     - Including version in Events (common)
     - updating tickets & orders services to handle concurrency issuess
     - (run test-occ.js script from readme 19dir)
     - absracted query method (findByEvent)
--- order service - versioning & OOC without mongoose update-if-current
-
+-- order service - versioning & OCC without mongoose update-if-current
+-- testing listensers
