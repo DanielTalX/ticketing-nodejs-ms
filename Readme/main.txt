@@ -218,6 +218,12 @@ sec19 - Listening for Events and Handling Concurrency Issues
 
 -- ep416-429 - handling concurrency issues (4)
 -- ep416-421
-    - Tickets Service Listeners
+    - Tickets Service Listeners (order created listener)
     - reserving a ticket
     - test implementation
+-- ep422-429
+    - (common module) update base-listner & ticket update event
+    - (ticket service) publish ticket update event on order created listener + testing
+    - (ticket service) order cancelled listener + testing
+    - (ticket service) rejecting edits of reserved tickets + testing
+
