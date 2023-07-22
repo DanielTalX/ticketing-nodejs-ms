@@ -227,3 +227,10 @@ sec19 - Listening for Events and Handling Concurrency Issues
     - (ticket service) order cancelled listener + testing
     - (ticket service) rejecting edits of reserved tickets + testing
 
+
+sec20 - Expiration Worker Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep430-435 - Expiration Service Setup (1)
+    - expiration service & skaffold setup
+    - intro on bull.js and redis
+

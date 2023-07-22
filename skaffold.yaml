@@ -7,7 +7,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: mydockerid/auth
+    - image: mydockerid/aauth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -25,6 +25,14 @@ build:
             dest: .
     - image: mydockerid/orders
       context: orders
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
+    - image: mydockerid/expiration
+      context: expiration
       docker:
         dockerfile: Dockerfile
       sync:
