@@ -233,4 +233,8 @@ sec20 - Expiration Worker Service
 -- ep430-435 - Expiration Service Setup (1)
     - expiration service & skaffold setup
     - intro on bull.js and redis
+-- ep436-440 - expiration service continue (2)
+    - order created listener
+    - creating a bull queue
+    - queueing a job on event arrival 
 
