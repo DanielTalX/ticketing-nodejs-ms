@@ -238,6 +238,8 @@ sec20 - Expiration Worker Service
     - creating a bull queue
     - queueing a job on event arrival
 -- ep441-443 - expiration service continue (3)
-    - delaying zop processing
+    - delaying job processing
     - Expiration Complete event (common)
+-- ep444-448 - expiration service (4)
+    - (Orders Service) listen to expiration complete event
 
