@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@danieltalx/common": "file:local-packages/danieltalx-common-1.0.7.tgz",
+    "@danieltalx/common": "file:local-packages/danieltalx-common-1.0.8.tgz",
     "bull": "^4.10.4",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"

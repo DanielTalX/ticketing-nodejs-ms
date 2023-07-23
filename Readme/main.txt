@@ -236,5 +236,8 @@ sec20 - Expiration Worker Service
 -- ep436-440 - expiration service continue (2)
     - order created listener
     - creating a bull queue
-    - queueing a job on event arrival 
+    - queueing a job on event arrival
+-- ep441-443 - expiration service continue (3)
+    - delaying zop processing
+    - Expiration Complete event (common)
 
