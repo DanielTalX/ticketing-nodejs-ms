@@ -243,3 +243,10 @@ sec20 - Expiration Worker Service
 -- ep444-448 - expiration service (4)
     - (Orders Service) listen to expiration complete event
 
+
+sec21 - Handling Payments
+~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep449-459 - Payments Service Setup (1)
+    - payments service & skaffold setup
+    - define order model
+    - order created & order cancelled listensers + testing

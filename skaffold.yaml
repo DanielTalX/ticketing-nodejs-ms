@@ -39,6 +39,14 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: mydockerid/payments
+      context: payments
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: 'src/**/*.ts'
+            dest: .
     - image: mydockerid/ticketing-client
       context: client
       docker:
