@@ -250,6 +250,14 @@ sec21 - Handling Payments
     - payments service & skaffold setup
     - define order model
     - order created & order cancelled listensers + testing
--- ep460-464 - Payments Service Setup (2)
+-- ep460-464 - Payments Service (2)
     - create charge handler + testing
+-- ep465-472 - Payments Service (3)
+    - Stripe Setup: 
+        https://stripe.com/
+        https://stripe.com/docs/api
+    - Creating a Stripe Secret: 
+        kubectl create secret generic stripe-secret --from-literal STRIPE_KEY=my_secret_stripe_key
+        postman test stripe token: tok_visa
+    - Creating a charge with Stripe + testing
 
