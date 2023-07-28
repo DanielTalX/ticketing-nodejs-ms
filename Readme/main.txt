@@ -268,3 +268,8 @@ sec21 - Handling Payments
     - Expiration Complete Listener fix (Order Service)
 
 
+sec22 - Back to the Client
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ep480-482 - Client 1
+    - fixing data fetching
+
