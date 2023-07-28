@@ -260,4 +260,11 @@ sec21 - Handling Payments
         kubectl create secret generic stripe-secret --from-literal STRIPE_KEY=my_secret_stripe_key
         postman test stripe token: tok_visa
     - Creating a charge with Stripe + testing
+-- ep473-479 - Payments Service (4)
+    - Payment model
+    - Payment Created Event (common)
+    - Payment Created Publisher
+    - Payment Created Listener (Order Service)
+    - Expiration Complete Listener fix (Order Service)
+
 
