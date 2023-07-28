@@ -250,3 +250,6 @@ sec21 - Handling Payments
     - payments service & skaffold setup
     - define order model
     - order created & order cancelled listensers + testing
+-- ep460-464 - Payments Service Setup (2)
+    - create charge handler + testing
+
