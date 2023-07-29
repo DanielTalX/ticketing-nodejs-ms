@@ -281,5 +281,8 @@ sec22 - Back to the Client
     - wildcard routes [orderId] - OrderShow
 -- ep493-497 - Client 4
     - Stripe Payment Form
---
-npm install prop-types
+-- ep498-500 - Client 5
+    - filtering reserved tickets
+    - header links
+    - rendering a list of orders
+
