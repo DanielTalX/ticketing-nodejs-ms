@@ -274,4 +274,8 @@ sec22 - Back to the Client
     - fixing data fetching
 -- ep483-485 - Client 2
     - ticket creation form
+-- ep486-492 - Client 3
+    - show tickets list
+    - wildcard routes [ticketId] - TicketShow + create an order
+    - wildcard routes [orderId] - OrderShow
 
