@@ -303,4 +303,6 @@ sec23 - CI/CD
     - Prod vs Dev Manifest Files
     - install Ingress-Nginx in digital ocean
     - addional deploy files
+-- ep525-529 - CI - CD 3
+    - buying & configuring a Domain Name (namecheap)
 
