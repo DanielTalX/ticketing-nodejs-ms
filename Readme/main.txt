@@ -289,7 +289,17 @@ sec22 - Back to the Client
 
 sec23 - CI/CD
 ~~~~~~~~~~~~~
--- ep501-509 - CI- CD
+-- ep501-509 - CI - CD 1
     - adding CI Tests scripts
     - running tests on PR Creation in Parallel
     - selective test execution
+-- ep510-521 - CI - CD 2
+    - digital ocean deployment
+        * brew install doctl
+    - define secret keys in github
+    - building an image in an Action
+    - restarting the deployment
+    - applyimg kubernetes manifests
+    - Prod vs Dev Manifest Files
+    - install Ingress-Nginx in digital ocean
+

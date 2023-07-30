@@ -1,0 +1,10 @@
+# conntect to digital ocean context!!!!
+kubectl config use-context do-sfo2-ticketing
+
+# manual secret creation
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=MY_JWT_KEY
+kubectl create secret generic stripe-secret --from-literal STRIPE_KEY=MY_STRIPE_KEY
+
+# install Ingress-Nginx in digital ocean
+- https://kubernetes.github.io/ingress-nginx/deploy/#digital-ocean
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.1/deploy/static/provider/do/deploy.yaml
